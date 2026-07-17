@@ -8,26 +8,26 @@ const row1 = [
   "Web Apps",
   "Mobile-first Apps",
   "Dashboards",
-  "CRM-Anbindungen",
+  "CRM Integrations",
 ];
 
 const row2 = [
-  "ERP-nahe Prozesse",
-  "Dokumenten-KI",
+  "ERP-adjacent Processes",
+  "Document AI",
   "Voice AI",
   "Chatbots",
-  "Datenanalyse",
+  "Data Analysis",
   "Reporting",
-  "Cloud-Systeme",
-  "Kundenportale",
+  "Cloud Systems",
+  "Customer Portals",
 ];
 
 const row3 = [
-  "Creator-Plattformen",
-  "Automatische E-Mail-Prozesse",
-  "Produktdaten-Automation",
-  "Interne Assistenzsysteme",
-  "Monitoring-Systeme",
+  "Creator Platforms",
+  "Automated Email Workflows",
+  "Product Data Automation",
+  "Internal Assistant Systems",
+  "Monitoring Systems",
 ];
 
 function Chip({ label }: { label: string }) {
@@ -72,12 +72,12 @@ export default function Capabilities() {
           <div className="mx-auto max-w-3xl text-center">
             <span className="eyebrow">Capabilities</span>
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Was wir technisch{" "}
-              <span className="gradient-text">möglich machen.</span>
+              What we make{" "}
+              <span className="gradient-text">technically possible.</span>
             </h2>
             <p className="mt-5 text-base text-slate-400 sm:text-lg">
-              Ein modularer Baukasten aus KI, Automatisierung und Softwaretechnik
-              – kombiniert zu Lösungen, die zu deinem Geschäft passen.
+              A modular toolkit of AI, automation, and software engineering —
+              combined into solutions that fit your business.
             </p>
           </div>
         </Reveal>

@@ -2,25 +2,25 @@ import { AlertTriangle, CheckCircle2, ArrowRight } from "lucide-react";
 import Reveal from "./Reveal";
 
 const problems = [
-  "Manuelle Arbeit kostet täglich wertvolle Zeit.",
-  "Excel-Listen werden unübersichtlich und fehleranfällig.",
-  "Tools sind nicht miteinander verbunden.",
-  "Daten liegen verstreut in vielen Systemen.",
-  "Entscheidungen dauern zu lange.",
-  "Teams wiederholen jeden Tag dieselben Aufgaben.",
-  "Service, Vertrieb und Verwaltung skalieren schlecht.",
-  "Das Management hat keinen Echtzeit-Überblick.",
+  "Manual work costs valuable time every day.",
+  "Spreadsheets become messy and error-prone.",
+  "Tools aren't connected to each other.",
+  "Data is scattered across many systems.",
+  "Decisions take too long to make.",
+  "Teams repeat the same tasks every day.",
+  "Service, sales, and admin scale poorly.",
+  "Management has no real-time overview.",
 ];
 
 const solutions = [
-  "Automatisierte Workflows statt wiederkehrender Handarbeit.",
-  "Strukturierte, verlässliche Daten an einem Ort.",
-  "Verbundene Systeme mit sauberen Schnittstellen.",
-  "Klare Dashboards mit Echtzeit-Kennzahlen.",
-  "Schnellere, datenbasierte Entscheidungen.",
-  "KI-Assistenten für Routineaufgaben.",
-  "Prozesse, die mit dem Unternehmen mitwachsen.",
-  "Operative Kontrolle über alle Abläufe.",
+  "Automated workflows instead of repetitive manual work.",
+  "Structured, reliable data in one place.",
+  "Connected systems with clean interfaces.",
+  "Clear dashboards with real-time metrics.",
+  "Faster, data-driven decisions.",
+  "AI assistants for routine tasks.",
+  "Processes that grow with your business.",
+  "Operational control over every workflow.",
 ];
 
 export default function ProblemSolution() {
@@ -29,21 +29,21 @@ export default function ProblemSolution() {
       <div className="container-x">
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
-            <span className="eyebrow">Problem &amp; Lösung</span>
+            <span className="eyebrow">Problem &amp; Solution</span>
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Wenn Prozesse wachsen, wächst oft auch das{" "}
-              <span className="gradient-text">Chaos.</span>
+              As processes grow, so does the{" "}
+              <span className="gradient-text">chaos.</span>
             </h2>
             <p className="mt-5 text-base text-slate-400 sm:text-lg">
-              OMLU KI PRO analysiert diese Abläufe und entwickelt daraus
-              individuelle KI-Systeme, Apps und Automationen, die Arbeit
-              strukturieren, beschleunigen und messbar vereinfachen.
+              OMLU KI PRO analyzes these workflows and builds custom AI
+              systems, apps, and automation that structure, speed up, and
+              measurably simplify the work.
             </p>
           </div>
         </Reveal>
 
         <div className="mt-14 grid items-stretch gap-6 lg:grid-cols-[1fr_auto_1fr]">
-          {/* Vorher */}
+          {/* Before */}
           <Reveal>
             <div className="glass-card h-full rounded-2xl p-7">
               <div className="mb-5 flex items-center gap-3">
@@ -52,10 +52,10 @@ export default function ProblemSolution() {
                 </span>
                 <div>
                   <p className="text-xs uppercase tracking-widest text-slate-500">
-                    Vorher
+                    Before
                   </p>
                   <p className="font-semibold text-white">
-                    Manuell, verstreut, wenig Kontrolle
+                    Manual, scattered, little control
                   </p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function ProblemSolution() {
             </span>
           </div>
 
-          {/* Nachher */}
+          {/* After */}
           <Reveal delay={0.1}>
             <div className="glass-card gradient-border h-full rounded-2xl p-7 shadow-glow">
               <div className="mb-5 flex items-center gap-3">
@@ -86,10 +86,10 @@ export default function ProblemSolution() {
                 </span>
                 <div>
                   <p className="text-xs uppercase tracking-widest text-slate-500">
-                    Nachher
+                    After
                   </p>
                   <p className="font-semibold text-white">
-                    Automatisiert, klar, steuerbar
+                    Automated, clear, manageable
                   </p>
                 </div>
               </div>

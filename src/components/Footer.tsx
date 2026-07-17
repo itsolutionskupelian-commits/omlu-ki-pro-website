@@ -1,16 +1,16 @@
-import { Sparkles, Mail, Phone, MapPin } from "lucide-react";
+import { Sparkles, Mail } from "lucide-react";
 
 const nav = [
-  { label: "Leistungen", href: "#leistungen" },
-  { label: "Lösungen", href: "#loesungen" },
-  { label: "Prozess", href: "#prozess" },
-  { label: "Kurse", href: "#kurse" },
-  { label: "Kontakt", href: "#kontakt" },
+  { label: "Services", href: "#services" },
+  { label: "Solutions", href: "#solutions" },
+  { label: "Process", href: "#process" },
+  { label: "Courses", href: "#courses" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const legal = [
-  { label: "Impressum", href: "#impressum" },
-  { label: "Datenschutz", href: "#datenschutz" },
+  { label: "Imprint", href: "#imprint" },
+  { label: "Privacy Policy", href: "#privacy" },
 ];
 
 export default function Footer() {
@@ -29,9 +29,9 @@ export default function Footer() {
               </span>
             </a>
             <p className="mt-4 max-w-sm text-sm text-slate-400">
-              AI-First Development &amp; Enterprise Automation. Individuelle
-              KI-Systeme, Apps und Automationen für Unternehmen, Creator und
-              moderne Teams.
+              AI-First Development &amp; Enterprise Automation. Custom AI
+              systems, apps, and automation for companies, creators, and
+              modern teams.
             </p>
           </div>
 
@@ -57,30 +57,17 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-300">
-              Kontakt
+              Contact
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-slate-400">
               <li>
                 <a
-                  href="mailto:kontakt@omlu-ki-pro.de"
+                  href="mailto:it.solutions.kupelian@gmail.com"
                   className="flex items-center gap-2 transition-colors hover:text-white"
                 >
                   <Mail className="h-4 w-4 text-electric-400" />
-                  kontakt@omlu-ki-pro.de
+                  it.solutions.kupelian@gmail.com
                 </a>
-              </li>
-              <li>
-                <a
-                  href="tel:+49000000000"
-                  className="flex items-center gap-2 transition-colors hover:text-white"
-                >
-                  <Phone className="h-4 w-4 text-electric-400" />
-                  +49 000 000000
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-electric-400" />
-                Deutschland
               </li>
             </ul>
           </div>
@@ -88,7 +75,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 py-6 sm:flex-row">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} OMLU KI PRO. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} OMLU KI PRO. All rights reserved.
           </p>
           <ul className="flex items-center gap-6">
             {legal.map((l) => (

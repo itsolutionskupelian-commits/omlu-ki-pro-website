@@ -12,23 +12,23 @@ type Step = {
 const steps: Step[] = [
   {
     icon: Search,
-    title: "Prozesse verstehen",
-    text: "Wir analysieren deine Abläufe, Tools, Datenquellen und Engpässe.",
+    title: "Understand the process",
+    text: "We analyze your workflows, tools, data sources, and bottlenecks.",
   },
   {
     icon: Lightbulb,
-    title: "KI-Potenziale erkennen",
-    text: "Wir identifizieren, welche Aufgaben automatisiert, beschleunigt oder neu gedacht werden können.",
+    title: "Identify AI potential",
+    text: "We pinpoint which tasks can be automated, accelerated, or rethought.",
   },
   {
     icon: Boxes,
-    title: "System entwickeln",
-    text: "Wir bauen Apps, Dashboards, Automationen oder KI-Agenten, die exakt zu deinem Geschäft passen.",
+    title: "Build the system",
+    text: "We build apps, dashboards, automation, or AI agents that fit your business exactly.",
   },
   {
     icon: TrendingUp,
-    title: "Skalieren & verbessern",
-    text: "Nach dem Launch optimieren wir weiter, damit dein System mit deinem Unternehmen wächst.",
+    title: "Scale & improve",
+    text: "After launch, we keep optimizing so your system grows with your business.",
   },
 ];
 
@@ -110,8 +110,8 @@ function WorkflowVisual({ active }: { active: number }) {
 
         <div className="absolute bottom-5 left-5 right-5">
           <div className="flex items-center justify-between text-xs text-slate-400">
-            <span>Von Chaos</span>
-            <span className="gradient-text font-semibold">zu Kontrolle</span>
+            <span>From chaos</span>
+            <span className="gradient-text font-semibold">to control</span>
           </div>
           <div className="mt-2 h-1 overflow-hidden rounded-full bg-white/10">
             <motion.div
@@ -140,15 +140,15 @@ export default function Scrollytelling() {
   });
 
   return (
-    <section id="loesungen" className="section-pad scroll-mt-24">
+    <section id="solutions" className="section-pad scroll-mt-24">
       <div className="container-x">
         <div className="mx-auto max-w-3xl text-center">
-          <span className="eyebrow">Vorgehen</span>
+          <span className="eyebrow">Approach</span>
           <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Von Chaos zu <span className="gradient-text">Kontrolle</span>
+            From chaos to <span className="gradient-text">control</span>
           </h2>
           <p className="mt-5 text-base text-slate-400 sm:text-lg">
-            Wir verwandeln komplexe Abläufe in klare digitale Systeme.
+            We turn complex workflows into clear digital systems.
           </p>
         </div>
 
@@ -191,7 +191,7 @@ export default function Scrollytelling() {
                     <div>
                       <div className="flex items-center gap-3">
                         <span className="text-xs font-semibold text-electric-400">
-                          Schritt {i + 1}
+                          Step {i + 1}
                         </span>
                       </div>
                       <h3 className="mt-1 text-lg font-semibold text-white">

@@ -20,61 +20,61 @@ type Service = {
 const services: Service[] = [
   {
     icon: Brain,
-    title: "KI-Softwareentwicklung",
-    text: "Individuelle KI-Tools, interne Assistenten, intelligente Workflows, Dokumentenverarbeitung, Recherche-Systeme und datenbasierte Entscheidungsprozesse.",
+    title: "AI Software Development",
+    text: "Custom AI tools, internal assistants, intelligent workflows, document processing, research systems, and data-driven decision-making.",
   },
   {
     icon: Smartphone,
-    title: "App-Entwicklung",
-    text: "Mobile-first Web Apps, interne Mitarbeiter-Apps, Kundenportale, MVPs, Creator-Plattformen und skalierbare Business-Anwendungen.",
+    title: "App Development",
+    text: "Mobile-first web apps, internal staff apps, customer portals, MVPs, creator platforms, and scalable business applications.",
   },
   {
     icon: Workflow,
     title: "Enterprise Automation",
-    text: "Automatisierung wiederkehrender Aufgaben, Systemverbindungen, automatische Reports, CRM-/ERP-nahe Workflows und Prozessoptimierung.",
+    text: "Automating recurring tasks, system integrations, automated reports, CRM/ERP-adjacent workflows, and process optimization.",
   },
   {
     icon: LayoutDashboard,
-    title: "Interne Dashboards",
-    text: "Echtzeit-Übersicht über operative Zahlen, Prozesse, Teams, Kunden, Lager, Vertrieb, Einkauf oder Management-Kennzahlen.",
+    title: "Internal Dashboards",
+    text: "Real-time overview of operational figures, processes, teams, customers, inventory, sales, purchasing, or management KPIs.",
   },
   {
     icon: Compass,
-    title: "KI-Beratung & Strategie",
-    text: "Analyse bestehender Abläufe, Identifikation sinnvoller KI-Potenziale, Tool-Auswahl, Architekturberatung und Umsetzungsplanung.",
+    title: "AI Consulting & Strategy",
+    text: "Analysis of existing workflows, identification of meaningful AI opportunities, tool selection, architecture advice, and implementation planning.",
   },
   {
     icon: GraduationCap,
-    title: "Live-Kurse & Schulungen",
-    text: "Praxisnahe KI-Workshops für Unternehmen, Teams und Entscheider. Verständlich, konkret und direkt auf den Arbeitsalltag bezogen.",
+    title: "Live Courses & Training",
+    text: "Hands-on AI workshops for companies, teams, and decision-makers. Clear, practical, and directly relevant to daily work.",
   },
   {
     icon: Users,
-    title: "Creator- & Kursplattformen",
-    text: "Eigene Apps und Plattformen für Influencer, Coaches und Experten zum Verkauf von Kursen, Communities und digitalen Produkten.",
+    title: "Creator & Course Platforms",
+    text: "Custom apps and platforms for influencers, coaches, and experts to sell courses, communities, and digital products.",
   },
   {
     icon: Factory,
-    title: "Branchenlösungen",
-    text: "KI- und Automationssysteme für Industrie, E-Commerce, Immobilien, Handwerk, Vertrieb, Kundenservice, Logistik, Verwaltung und mehr.",
+    title: "Industry Solutions",
+    text: "AI and automation systems for industry, e-commerce, real estate, trades, sales, customer service, logistics, administration, and more.",
   },
 ];
 
 export default function Services() {
   return (
-    <section id="leistungen" className="section-pad scroll-mt-24">
+    <section id="services" className="section-pad scroll-mt-24">
       <div className="container-x">
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
-            <span className="eyebrow">Leistungen</span>
+            <span className="eyebrow">Services</span>
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              KI-Entwicklung, Automatisierung und Apps aus{" "}
-              <span className="gradient-text">einer Hand.</span>
+              AI development, automation, and apps —{" "}
+              <span className="gradient-text">all from one team.</span>
             </h2>
             <p className="mt-5 text-base text-slate-400 sm:text-lg">
-              Von der ersten Analyse bis zum laufenden System – wir verbinden
-              KI, Softwareentwicklung und Business-Verständnis zu Lösungen mit
-              echtem Nutzen.
+              From the first analysis to a running system — we combine AI,
+              software engineering, and business understanding into
+              solutions with real impact.
             </p>
           </div>
         </Reveal>

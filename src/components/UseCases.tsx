@@ -20,43 +20,43 @@ type UseCase = {
 const useCases: UseCase[] = [
   {
     icon: Building2,
-    title: "Unternehmen & interne Teams",
-    text: "Interne Apps zur Steuerung, Dokumentation und Auswertung von Arbeitsprozessen.",
+    title: "Companies & internal teams",
+    text: "Internal apps for managing, documenting, and analyzing work processes.",
   },
   {
     icon: ShoppingCart,
-    title: "E-Commerce",
-    text: "Automatisierte Produktdaten, Kundenservice-Prozesse, Retourenmanagement und Performance-Dashboards.",
+    title: "E-commerce",
+    text: "Automated product data, customer service workflows, returns management, and performance dashboards.",
   },
   {
     icon: Megaphone,
-    title: "Creator, Coaches & Influencer",
-    text: "Eigene Plattformen für Kurse, Communities, Mitgliederbereiche und digitale Produkte.",
+    title: "Creators, coaches & influencers",
+    text: "Custom platforms for courses, communities, membership areas, and digital products.",
   },
   {
     icon: Package,
-    title: "Industrie & Einkauf",
-    text: "Systeme für Einkauf, Lager, Ersatzteile, Preisfindung, Dokumentation und Prozessüberwachung.",
+    title: "Industry & procurement",
+    text: "Systems for purchasing, inventory, spare parts, pricing, documentation, and process monitoring.",
   },
   {
     icon: Handshake,
-    title: "Vertrieb & CRM",
-    text: "KI-gestützte Lead-Qualifizierung, automatische Follow-ups, CRM-Automation und bessere Pipeline-Übersicht.",
+    title: "Sales & CRM",
+    text: "AI-powered lead qualification, automatic follow-ups, CRM automation, and better pipeline visibility.",
   },
   {
     icon: BarChart3,
-    title: "Management & Controlling",
-    text: "Dashboards, Reports und Entscheidungsgrundlagen in Echtzeit.",
+    title: "Management & controlling",
+    text: "Dashboards, reports, and decision-making data in real time.",
   },
   {
     icon: Headphones,
-    title: "Kundenservice",
-    text: "Chatbots, Voicebots, Ticket-Vorqualifizierung und intelligente Antwortsysteme.",
+    title: "Customer service",
+    text: "Chatbots, voice bots, ticket pre-qualification, and intelligent response systems.",
   },
   {
     icon: FileText,
-    title: "Verwaltung & Dokumente",
-    text: "Automatisierte Dokumentenprüfung, Datenextraktion, Formularverarbeitung und interne Assistenzsysteme.",
+    title: "Administration & documents",
+    text: "Automated document review, data extraction, form processing, and internal assistant systems.",
   },
 ];
 
@@ -68,12 +68,12 @@ export default function UseCases() {
           <div className="mx-auto max-w-3xl text-center">
             <span className="eyebrow">Use Cases</span>
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Lösungen für echte{" "}
-              <span className="gradient-text">Geschäftsprobleme.</span>
+              Solutions for real{" "}
+              <span className="gradient-text">business problems.</span>
             </h2>
             <p className="mt-5 text-base text-slate-400 sm:text-lg">
-              Branchenübergreifend – dort, wo Zeit, Geld oder Übersicht verloren
-              gehen, entsteht das größte Potenzial.
+              Across every industry — the biggest potential lies wherever
+              time, money, or visibility gets lost.
             </p>
           </div>
         </Reveal>

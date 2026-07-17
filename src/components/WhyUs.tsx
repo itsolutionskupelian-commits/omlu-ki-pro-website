@@ -18,33 +18,33 @@ type Reason = {
 const reasons: Reason[] = [
   {
     icon: Cpu,
-    title: "KI-first statt klassische Agentur",
-    text: "Wir denken nicht in Standard-Websites, sondern in intelligenten Systemen, Prozessen und Automationen.",
+    title: "AI-first, not a classic agency",
+    text: "We don't think in terms of standard websites, but in intelligent systems, processes, and automation.",
   },
   {
     icon: Fingerprint,
-    title: "Individuell statt Baukasten",
-    text: "Jede Lösung wird auf den konkreten Ablauf, die Daten und das Ziel des Unternehmens abgestimmt.",
+    title: "Custom-built, not off-the-shelf",
+    text: "Every solution is tailored to your specific workflow, data, and business goal.",
   },
   {
     icon: Target,
-    title: "Business-Fokus statt Technik-Spielerei",
-    text: "Wir entwickeln nur das, was echten Nutzen bringt: weniger Aufwand, bessere Übersicht, mehr Geschwindigkeit.",
+    title: "Business focus, not tech for tech's sake",
+    text: "We only build what delivers real value: less effort, better visibility, more speed.",
   },
   {
     icon: Layers,
-    title: "Moderne technische Umsetzung",
-    text: "Skalierbare Apps, saubere Schnittstellen, performante Frontends und zukunftsfähige Architekturen.",
+    title: "Modern technical execution",
+    text: "Scalable apps, clean interfaces, high-performance frontends, and future-proof architecture.",
   },
   {
     icon: Rocket,
-    title: "Schnelle Prototypen",
-    text: "Aus Ideen entstehen schnell testbare MVPs, damit Unternehmen früh sehen, was möglich ist.",
+    title: "Fast prototypes",
+    text: "Ideas become testable MVPs quickly, so you can see what's possible early on.",
   },
   {
     icon: RefreshCw,
-    title: "Langfristige Optimierung",
-    text: "Nach dem Launch können Systeme erweitert, verbessert und an neue Anforderungen angepasst werden.",
+    title: "Long-term optimization",
+    text: "After launch, systems can be extended, improved, and adapted to new requirements.",
   },
 ];
 
@@ -55,18 +55,18 @@ export default function WhyUs() {
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <Reveal>
             <div className="lg:sticky lg:top-28">
-              <span className="eyebrow">Warum OMLU KI PRO</span>
+              <span className="eyebrow">Why OMLU KI PRO</span>
               <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-                Warum Unternehmen mit{" "}
-                <span className="gradient-text">OMLU KI PRO</span> arbeiten.
+                Why companies work with{" "}
+                <span className="gradient-text">OMLU KI PRO</span>.
               </h2>
               <p className="mt-5 max-w-md text-base text-slate-400 sm:text-lg">
-                Wir verbinden KI, Softwareentwicklung, Automatisierung und
-                Business-Verständnis – und entwickeln Lösungen für echte
-                operative Probleme.
+                We combine AI, software engineering, automation, and business
+                understanding — and build solutions for real operational
+                problems.
               </p>
-              <a href="#kontakt" className="btn-primary mt-8">
-                Unverbindlich anfragen
+              <a href="#contact" className="btn-primary mt-8">
+                Get in touch
               </a>
             </div>
           </Reveal>

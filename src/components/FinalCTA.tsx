@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 export default function FinalCTA() {
   return (
-    <section id="kontakt" className="section-pad scroll-mt-24">
+    <section id="contact" className="section-pad scroll-mt-24">
       <div className="container-x">
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-electric-600/25 via-violet-500/15 to-cyan-500/15 p-8 text-center sm:p-14 lg:p-20">
@@ -23,30 +23,31 @@ export default function FinalCTA() {
 
             <div className="relative mx-auto max-w-3xl">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-                Bereit, dein Unternehmen mit KI auf das{" "}
-                <span className="gradient-text">nächste Level</span> zu bringen?
+                Ready to take your business to the{" "}
+                <span className="gradient-text">next level</span> with AI?
               </h2>
               <p className="mx-auto mt-5 max-w-2xl text-base text-slate-300 sm:text-lg">
-                Erzähl uns, wo Prozesse Zeit, Geld oder Übersicht kosten. Wir
-                zeigen dir, welche KI-Lösung daraus entstehen kann.
+                Tell us where processes are costing you time, money, or
+                visibility. We'll show you what AI solution could come out
+                of it.
               </p>
 
               <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
                 <a
-                  href="mailto:kontakt@omlu-ki-pro.de"
+                  href="mailto:it.solutions.kupelian@gmail.com"
                   className="btn-primary"
                 >
-                  Jetzt Projekt anfragen
+                  Request a project now
                   <ArrowRight className="h-4 w-4" />
                 </a>
-                <a href="#leistungen" className="btn-secondary">
-                  Leistungen ansehen
+                <a href="#services" className="btn-secondary">
+                  View services
                 </a>
               </div>
 
               <p className="mt-6 text-sm text-slate-400">
-                Für Unternehmen, Creator, Teams und Entscheider, die KI praktisch
-                einsetzen möchten.
+                For companies, creators, teams, and decision-makers who want
+                to put AI to practical use.
               </p>
             </div>
           </div>

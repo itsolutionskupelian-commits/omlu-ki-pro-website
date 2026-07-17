@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
-import NeuralSphere from "./NeuralSphere";
+import AICoreDemo from "./AICoreDemo";
 
 const container = {
   hidden: {},
@@ -39,30 +39,30 @@ export default function Hero() {
               variants={item}
               className="mt-6 text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl"
             >
-              KI-Systeme, Apps &amp; Automationen für{" "}
-              <span className="gradient-text">Unternehmen</span>, die schneller
-              wachsen wollen.
+              AI systems, apps &amp; automation for{" "}
+              <span className="gradient-text">companies</span> that want to
+              grow faster.
             </motion.h1>
 
             <motion.p
               variants={item}
               className="mt-6 max-w-xl text-base leading-relaxed text-slate-400 sm:text-lg"
             >
-              OMLU KI PRO entwickelt individuelle AI-Software, interne Apps,
-              Automationen und Enterprise-Systeme, die manuelle Arbeit
-              reduzieren, Kosten senken und Teams mehr Kontrolle geben.
+              OMLU KI PRO builds custom AI software, internal apps,
+              automation, and enterprise systems that reduce manual work,
+              cut costs, and give teams more control.
             </motion.p>
 
             <motion.div
               variants={item}
               className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center"
             >
-              <a href="#kontakt" className="btn-primary">
-                Projekt anfragen
+              <a href="#contact" className="btn-primary">
+                Request a project
                 <ArrowRight className="h-4 w-4" />
               </a>
-              <a href="#leistungen" className="btn-secondary">
-                Leistungen ansehen
+              <a href="#services" className="btn-secondary">
+                View services
               </a>
             </motion.div>
 
@@ -70,8 +70,7 @@ export default function Hero() {
               variants={item}
               className="mt-6 text-sm text-slate-500"
             >
-              Individuelle Entwicklung · KI-Beratung · Automatisierung ·
-              Live-Schulungen
+              Custom development · AI consulting · Automation · Live training
             </motion.p>
           </motion.div>
 
@@ -84,7 +83,7 @@ export default function Hero() {
           >
             <div className="absolute inset-0 rounded-full bg-electric-500/10 blur-3xl" />
             <div className="relative h-full w-full">
-              <NeuralSphere />
+              <AICoreDemo />
             </div>
 
             {/* floating holographic stat cards */}
@@ -95,9 +94,9 @@ export default function Hero() {
             >
               <div className="glass-card gradient-border rounded-xl px-4 py-3">
                 <p className="text-[10px] uppercase tracking-wider text-slate-400">
-                  Automatisierte Workflows
+                  Automated workflows
                 </p>
-                <p className="mt-1 text-lg font-bold text-white">–70% Aufwand</p>
+                <p className="mt-1 text-lg font-bold text-white">–70% effort</p>
               </div>
             </motion.div>
 
@@ -113,10 +112,10 @@ export default function Hero() {
             >
               <div className="glass-card gradient-border rounded-xl px-4 py-3">
                 <p className="text-[10px] uppercase tracking-wider text-slate-400">
-                  Echtzeit-Übersicht
+                  Real-time insight
                 </p>
                 <p className="mt-1 text-lg font-bold gradient-text">
-                  Live Dashboards
+                  Live dashboards
                 </p>
               </div>
             </motion.div>

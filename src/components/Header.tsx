@@ -3,11 +3,11 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, Sparkles } from "lucide-react";
 
 const NAV = [
-  { label: "Leistungen", href: "#leistungen" },
-  { label: "Lösungen", href: "#loesungen" },
-  { label: "Prozess", href: "#prozess" },
-  { label: "Kurse", href: "#kurse" },
-  { label: "Kontakt", href: "#kontakt" },
+  { label: "Services", href: "#services" },
+  { label: "Solutions", href: "#solutions" },
+  { label: "Process", href: "#process" },
+  { label: "Courses", href: "#courses" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Header() {
@@ -53,7 +53,7 @@ export default function Header() {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-8 lg:flex" aria-label="Hauptnavigation">
+        <nav className="hidden items-center gap-8 lg:flex" aria-label="Main navigation">
           {NAV.map((item) => (
             <a
               key={item.href}
@@ -66,8 +66,8 @@ export default function Header() {
         </nav>
 
         <div className="hidden lg:block">
-          <a href="#kontakt" className="btn-primary">
-            Projekt anfragen
+          <a href="#contact" className="btn-primary">
+            Request a project
           </a>
         </div>
 
@@ -76,7 +76,7 @@ export default function Header() {
           type="button"
           onClick={() => setOpen((v) => !v)}
           className="grid h-11 w-11 place-items-center rounded-xl border border-white/10 bg-white/[0.03] text-white lg:hidden"
-          aria-label={open ? "Menü schließen" : "Menü öffnen"}
+          aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -96,7 +96,7 @@ export default function Header() {
             <div className="container-x pb-6">
               <nav
                 className="glass flex flex-col gap-1 rounded-2xl p-3"
-                aria-label="Mobile Navigation"
+                aria-label="Mobile navigation"
               >
                 {NAV.map((item) => (
                   <a
@@ -109,11 +109,11 @@ export default function Header() {
                   </a>
                 ))}
                 <a
-                  href="#kontakt"
+                  href="#contact"
                   onClick={() => setOpen(false)}
                   className="btn-primary mt-2 w-full"
                 >
-                  Projekt anfragen
+                  Request a project
                 </a>
               </nav>
             </div>

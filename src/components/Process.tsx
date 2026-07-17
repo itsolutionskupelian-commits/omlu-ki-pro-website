@@ -11,45 +11,45 @@ type Phase = {
 const phases: Phase[] = [
   {
     icon: PhoneCall,
-    title: "Erstgespräch",
-    text: "Wir verstehen dein Ziel, deine aktuellen Abläufe und die größten Engpässe.",
+    title: "Initial call",
+    text: "We understand your goal, your current workflows, and your biggest bottlenecks.",
   },
   {
     icon: ClipboardList,
-    title: "Analyse & Konzept",
-    text: "Wir definieren, welche Lösung technisch und wirtschaftlich Sinn ergibt.",
+    title: "Analysis & concept",
+    text: "We define which solution makes sense both technically and economically.",
   },
   {
     icon: FlaskConical,
-    title: "Prototyp / MVP",
-    text: "Wir bauen eine erste testbare Version, damit du schnell Feedback geben kannst.",
+    title: "Prototype / MVP",
+    text: "We build a first testable version so you can give feedback quickly.",
   },
   {
     icon: Code2,
-    title: "Entwicklung",
-    text: "Wir setzen die Lösung sauber, performant und skalierbar um.",
+    title: "Development",
+    text: "We implement the solution cleanly, performantly, and at scale.",
   },
   {
     icon: Rocket,
-    title: "Launch & Optimierung",
-    text: "Wir begleiten den Start, verbessern Workflows und erweitern das System bei Bedarf.",
+    title: "Launch & optimization",
+    text: "We support the launch, improve workflows, and extend the system as needed.",
   },
 ];
 
 export default function Process() {
   return (
-    <section id="prozess" className="section-pad scroll-mt-24">
+    <section id="process" className="section-pad scroll-mt-24">
       <div className="container-x">
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
-            <span className="eyebrow">Prozess</span>
+            <span className="eyebrow">Process</span>
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              So läuft ein Projekt mit{" "}
-              <span className="gradient-text">OMLU KI PRO</span> ab.
+              How a project with{" "}
+              <span className="gradient-text">OMLU KI PRO</span> works.
             </h2>
             <p className="mt-5 text-base text-slate-400 sm:text-lg">
-              Strukturiert, transparent und mit Fokus auf schnell sichtbare
-              Ergebnisse.
+              Structured, transparent, and focused on results you can see
+              quickly.
             </p>
           </div>
         </Reveal>

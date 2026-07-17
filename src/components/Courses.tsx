@@ -2,19 +2,19 @@ import { GraduationCap, ArrowRight, Check } from "lucide-react";
 import Reveal from "./Reveal";
 
 const modules = [
-  "KI-Grundlagen für Unternehmen",
-  "Automatisierung im Arbeitsalltag",
-  "Prompting für Business",
-  "Tool-Workflows",
-  "Interne KI-Prozesse",
-  "KI für Vertrieb, Verwaltung, Marketing und Kundenservice",
-  "Individuelle Team-Schulungen",
-  "Praxisnahe Live-Sessions statt trockener Theorie",
+  "AI fundamentals for businesses",
+  "Automation in everyday work",
+  "Prompting for business",
+  "Tool workflows",
+  "Internal AI processes",
+  "AI for sales, admin, marketing, and customer service",
+  "Custom team training",
+  "Hands-on live sessions instead of dry theory",
 ];
 
 export default function Courses() {
   return (
-    <section id="kurse" className="section-pad scroll-mt-24">
+    <section id="courses" className="section-pad scroll-mt-24">
       <div className="container-x">
         <div className="glass-card gradient-border overflow-hidden rounded-3xl">
           <div className="grid gap-10 p-8 sm:p-12 lg:grid-cols-2 lg:gap-16">
@@ -22,19 +22,19 @@ export default function Courses() {
               <div>
                 <span className="eyebrow">
                   <GraduationCap className="h-3.5 w-3.5 text-cyan-400" />
-                  Live-Kurse &amp; Schulungen
+                  Live Courses &amp; Training
                 </span>
                 <h2 className="mt-5 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  KI verstehen. Automatisierung anwenden.{" "}
-                  <span className="gradient-text">Teams befähigen.</span>
+                  Understand AI. Apply automation.{" "}
+                  <span className="gradient-text">Empower your team.</span>
                 </h2>
                 <p className="mt-5 text-base leading-relaxed text-slate-400 sm:text-lg">
-                  Wir bieten Live-Kurse und Workshops für Unternehmen, Teams und
-                  Unternehmer, die KI nicht nur theoretisch verstehen, sondern
-                  praktisch im Alltag einsetzen wollen.
+                  We offer live courses and workshops for companies, teams,
+                  and business owners who want to use AI in practice, not
+                  just in theory.
                 </p>
-                <a href="#kontakt" className="btn-primary mt-8">
-                  Workshop anfragen
+                <a href="#contact" className="btn-primary mt-8">
+                  Request a workshop
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </div>

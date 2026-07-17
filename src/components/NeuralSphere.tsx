@@ -196,7 +196,7 @@ export default function NeuralSphere() {
       ref={canvasRef}
       className="h-full w-full"
       role="img"
-      aria-label="Abstrakte Visualisierung eines KI-Neural-Cores mit vernetzten Datenpunkten"
+      aria-label="Abstract visualization of an AI neural core with connected data points"
     />
   );
 }

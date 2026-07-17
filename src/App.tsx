@@ -29,16 +29,16 @@ export default function App() {
         <Courses />
         <Process />
 
-        {/* Neutraler Referenz-Platzhalter – keine erfundenen Kunden */}
+        {/* Neutral reference placeholder – no fabricated clients */}
         <section className="section-pad">
           <div className="container-x">
             <Reveal>
               <div className="glass-card rounded-2xl px-6 py-10 text-center">
                 <p className="text-xs uppercase tracking-[0.2em] text-slate-500">
-                  Referenzen
+                  References
                 </p>
                 <p className="mt-3 text-lg font-medium text-slate-300">
-                  Referenzen und Projektbeispiele folgen.
+                  References and project examples coming soon.
                 </p>
               </div>
             </Reveal>
